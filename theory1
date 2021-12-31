@@ -1,0 +1,16 @@
+Adressing Inductive Bias in Decision Tree Learning in Machine Learning:
+
+1)Approximate inductive bias of ID3: In the approximation inductive bias, the shorter trees are prefered over larger trees, also it uses BFS(Breadth First Search).
+A closer approximation of ID3 algorithm gives us a result that trees that place high information gain attributes close to root are preferred over others.
+
+2)Restriction bias and Preference Bias: ID3 searches a complete hypothesis space, from simple to complex hypoythesis, it searches the entire complete
+hypothesis until the termination condition is met. Its hypothesis space introduces no additional bias. The version space candidate elimination algorithm 
+searches an incomplete hypothesis. It searches this space completely finding every hypothesis consistent with training data. Its inductive bias is solely consequence 
+of the expressive power of its hypothesis representation. Its search strategy introduces no additional bias. Inbductive bias of ID3 follows from its search startegy, 
+whereas inductive bias of candidate elimination algorithm follows from the definition of its search space. Hence the inductive bias of ID3 is thus a preference for certain
+hypothesis over others. Therefore this form of bias is called as preference bias. Bias of Candidate Elimination algorithm is the form of a categorial restriction on the set of 
+hypothesis considered. This form of bias is typically called restriction bias.
+
+#machine-learning
+#ml
+#artificial-intelligence
